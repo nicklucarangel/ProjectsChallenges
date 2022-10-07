@@ -7,4 +7,5 @@ print(df)
 df.to_excel('desafio_minha_planilha_Nicolas_Rangel.xlsx', sheet_name='Teste',
             na_rep='#N/A', header=True, index=False)
 
-# teste
+df.to_excel('desafio_minha_planilha_Nicolas_Rangel.xlsx', sheet_name='Teste',
+            na_rep='#N/A', header=True, index=False)
