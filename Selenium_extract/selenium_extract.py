@@ -10,11 +10,13 @@ from sqlalchemy import tablesample
 
 browser = webdriver.Chrome()
 
+
 moedas = ['Dólar', 'Euro']
 print(moedas)
 
 
 # Cotação com laço for
+
 
 cotacoes = []
 
@@ -59,12 +61,6 @@ Dic_keys = list(dictionary.keys())
 for coins in Dic_keys:
     produtos.loc[produtos["Moeda"] == coins,
                  "Cotação"] = float(dictionary[coins])
-
-
-# produtos.loc[produtos["Moeda"] == "Euro",
-#             "Cotação"] = float(dictionary['Euro'])
-# produtos.loc[produtos["Moeda"] == "Ouro",
-#             "Cotação"] = float(dictionary['Ouro'])
 
 
 # Atualizar preço de Compra (preço original*cotação)
