@@ -7,7 +7,7 @@ import pandas as pd
 import sqlalchemy
 import os
 import pyslz
-from dotenv import load_dotenv
+
 
 # Load dotenv informations;
 load_dotenv()
